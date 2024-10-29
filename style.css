@@ -2,13 +2,15 @@
 
 body {
     font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 120px;
+    padding: 0 200px;
+    margin: 0;
     background-color: #1f2937;;
 }
 
@@ -28,5 +30,47 @@ li {
 
 .header-links {
     font-size: 18px;
-    color: #efe7eb;
+    color: #e5e7eb;
+}
+
+.part-1 {
+    display: flex;
+    padding: 100px 200px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    gap: 80px;
+}
+
+button {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 8px;
+    color: #f9faf8;
+    background-color: #3882F6;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left-side {
+    display: flex;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.right-side {
+    background-color: gray;
+    min-width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
