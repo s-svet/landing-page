@@ -44,6 +44,7 @@ li {
 button {
     cursor: pointer;
     font-size: 16px;
+    font-weight: bold;
     padding: 10px 30px;
     border-radius: 8px;
     color: #f9faf8;
@@ -57,7 +58,7 @@ button {
 
 .subtext {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #E5E7EB;
 }
 
 .left-side {
@@ -73,4 +74,88 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.text-2 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.card {
+    width: 150px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.image {
+    border-radius: 16px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3882F6;
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+.part-3 {
+    background-color: #E5E7EB;
+    padding: 100px 0 75px 0; 
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    width: 60%;
+    height: auto;
+    padding: 20px 10px;
+    margin: 0 300px;
+}
+
+.author {
+    margin: 0 300px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.part-4 {
+    padding: 100px 200px;
+}
+
+.call-to-action {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-weight: 500;
+}
+
+#button-two {
+    border-color: #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 20px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
